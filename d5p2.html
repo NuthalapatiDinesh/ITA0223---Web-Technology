@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Online Second-Hand Goods Buying and Selling System</title>
+  <link rel="
+  " href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Online Second-Hand Goods Buying and Selling System</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Commodities</a></li>
+      <li><a href="#">Orders</a></li>
+      <li><a href="#">Login</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section id="hero">
+      <h2>Buy and sell second-hand goods online</h2>
+      <p>Browse our wide selection of items or post your own for sale</p>
+      <a href="#" class="cta">Browse Items</a>
+    </section>
+    <section id="categories">
+      <h2>Categories</h2>
+      <ul id="category-list"></ul>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2021 Online Second-Hand Goods Buying and Selling System</p>
+  </footer>
+  <script src="scripts.js"></script>
+</body>
+</html>
+<style>
+  body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  background-color: #4CAF50;
+  color: white;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+nav ul li a:hover {
+  background-color: #3e8e41;
+}
+
+#hero {
+  background-image: url("goods.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+#hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+#hero p {
+  font-size: 1.5rem;
+}
+
+#hero .cta {
+  background-color: white;
+  color: #4CAF50;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  margin-top: 1rem;
+}
+
+#categories {
+  margin: 2rem 0;
+}
+
+#categories h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+#category-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style-type: none;
+  padding: 0;
+}
+
+#category-list li {
+  width: 31%;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+#category-list li h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+#category-list li p {
+  font-size: 1.2rem
+</style>
